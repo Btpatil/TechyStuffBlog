@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const CustomVideo = ({ link }) => {
     return (
         <div className=' aspect-w-16 aspect-h-9'>

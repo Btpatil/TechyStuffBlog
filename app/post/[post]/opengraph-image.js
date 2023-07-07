@@ -22,7 +22,7 @@ export default async function og({ params }) {
         (
             // ImageResponse JSX element
             <div tw='flex linear-gradient(to right, rgb(255, 228, 230), rgb(204, 251, 241))'>
-                <image src={`https://raw.githubusercontent.com/Btpatil/mdx-blogs-store/main/${dir}/thumbnail.png`} width={100} height={100} alt="TechyStuff Blogs" />
+                <Image src={`https://raw.githubusercontent.com/Btpatil/mdx-blogs-store/main/${dir}/thumbnail.png`} width={100} height={100} alt="TechyStuff Blogs" />
                 TechyStuff Blogs
             </div>
         ),
