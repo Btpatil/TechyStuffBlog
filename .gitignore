@@ -15,6 +15,12 @@
 # production
 /build
 
+.env
+/app/api/GetPosts
+/app/api/GetPostByName
+/app/post/page.jsx
+/blogs
+
 # misc
 .DS_Store
 *.pem

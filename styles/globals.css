@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.limit_4{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.limit_2{
+  /* display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; */
+
+  /* height: calc(2*); */
+}
+
+.limit_3{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* tailwind */
+.app {
+  @apply flex justify-center items-center flex-col mx-auto w-[100vw];
+}
+
+.introsection{
+  background: radial-gradient(circle at top center, rgb(215, 206, 218) 0%, #ffffff 50%);
+}
+
+.head_text {
+  @apply mt-5 text-5xl font-extrabold text-black sm:text-6xl;
+}
+
+.pink_gradient {
+  @apply bg-gradient-to-r from-pink-500 via-red-500 to-pink-500 bg-clip-text text-transparent;
+}
+
+.gradient{
+  @apply bg-gradient-to-r from-pink-500 via-red-500 to-pink-500;
+}
+
+.glassmorphism {
+  @apply bg-slate-50 border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-5;
+}
+
+.signup{
+  @apply rounded-md px-5 py-2 bg-pink-400 text-white transition-all hover:bg-black;
+}
+
+.separator{
+  @apply gradient w-[20%] h-2 my-20 rounded-lg;
+}
+
+.title{
+  @apply pink_gradient text-2xl font-bold;
+}
+
+.gallery {
+  justify-items: center;
+}
+
+/* .gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
