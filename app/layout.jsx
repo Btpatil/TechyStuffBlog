@@ -1,5 +1,6 @@
 import '@styles/globals.css'
 import Navbar from '@components/Navbar'
+import { Footer } from '@components/Footer'
 
 export const metadata = {
   metadataBase: new URL(`${process.env.METADATABASE}`),
@@ -15,9 +16,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
       <body>
-        <main className='app'>
+        <main className='app min-h-screen'>
           <Navbar />
           {children}
+          <Footer/>
         </main>
       </body>
     </html>

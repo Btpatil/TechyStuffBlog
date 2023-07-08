@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="flex self-start flex-between w-full items-center sm:px-16 px-6 glassmorphism sticky top-0 z-10">
             <Link href={'/'} className="flex gap-2 flex-center items-center">
                 <Image 
-                src={'/assets/images/logo.svg'}
+                src={'/assets/icons/favicon.ico'}
                 width={30}
                 height={30}
                 className="object-contain"

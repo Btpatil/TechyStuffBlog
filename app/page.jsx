@@ -14,16 +14,16 @@ export default function Home() {
         <div className="mt-5 w-[60%] mx-auto">
           <p className="desc text-center"> Our blog is your go-to resource for all things tech, whether you&apos;re a tech enthusiast, a professional in the industry, or simply curious about the latest gadgets and advancements.</p>
         </div>
-        <div className="flex w-full justify-center gap-6 mt-4">
+        {/* <div className="flex w-full justify-center gap-6 mt-4">
           <button className="signup">Sign Up</button>
           <button className="signup">Sign In</button>
-        </div>
+        </div> */}
       </div>
 
       <div className="separator">
       </div>
 
-      <div className="latest max-w-screen-lg lg:w-full w-[90%] mx-auto h-[700px]">
+      <div className="latest max-w-screen-lg lg:w-full w-[90%] mx-auto my-5 mb-10 min-h-screen">
         <div className="title">
           Latest Posts
         </div>
