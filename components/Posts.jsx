@@ -22,8 +22,9 @@ export function Loading() {
     )
 }
 
-export async function Posts() {
+export const Posts = async () => {
     let posts = await getPosts()
+    // console.log(posts)
     // const [posts, setPosts] = useState(null)
 
     // useEffect(() => {
